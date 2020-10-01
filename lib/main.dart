@@ -22,12 +22,18 @@ Widget getListView() {
         subtitle: Text("Netflix"),
         trailing: Icon(Icons.bubble_chart),
       ),
-      ListTile(///new list view added 
+      ListTile(
         leading: Icon(Icons.bubble_chart),
         title: Text("Taarak Mehta ka Ooltah Chashmah"),
         subtitle: Text("Sony Sub TV"),
         trailing: Icon(Icons.bubble_chart),
       ),
+    ListTile(
+        leading: Icon(Icons.bubble_chart),
+        title: Text("Suits"),
+        subtitle: Text("Netflix"),
+        trailing: Icon(Icons.bubble_chart),
+    ),  
     ],
   );
   return listview;
